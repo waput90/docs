@@ -26,9 +26,21 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Gulp 4 configuration
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/waput90/docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+this configuration are my suited in production environment,
+since i will be only defining all the paths of the source and destination
+of my working environment
+
+You can visit [here](https://github.com/waput90/Gulp4Watch) 
+
+### Webpack configuration
+
+this webpack configuration are created due to my curiousity. :) 
+feel free to make your own this is just a starting point,
+since there are lot of configuration, in webpack out there.
+
+You can visit [here](https://github.com/waput90/Gulp4Watch) 
 
 ### Support or Contact
 

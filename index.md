@@ -26,6 +26,16 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+### ASP.NET Core MVC Tag helpers
+
+this configuration to make the ```<environment></environment>``` tags and other ASP.NET Core MVC features
+all you need to do is to import this piece of code to your current ```.cshtml``` file
+```@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"```. then viola! you can now used those 
+MVC built in tags
+
+### Note:
+this configuration must apply if you are using ASP.NET Core AREAS to get all the MVC tags.
+
 ### Gulp 4 configuration
 
 this configuration are my suited in production environment,
@@ -36,9 +46,9 @@ You can visit [here](https://github.com/waput90/Gulp4Watch)
 
 ### Webpack configuration
 
-this webpack configuration are created due to my curiousity. :) 
-feel free to make your own this is just a starting point,
-since there are lot of configuration, in webpack out there.
+this webpack configuration is created due to my curiousity. :) 
+feel free to make your own, this is just a starting point,
+since there are lot of configuration out there.
 
 You can visit [here](https://github.com/waput90/Gulp4Watch) 
 

@@ -25,7 +25,7 @@ you can visit there site, just click [here](https://www.jsdelivr.com/?docs=gh)
 
 
 ## ASP.NET Core MVC Tag helpers
-
+```
 this configuration to make the ```<environment></environment>``` tags and other ASP.NET Core MVC features
 all you need to do is to import this piece of code to your current ```.cshtml``` file
 ```@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"```. then viola! you can now used those 
@@ -33,6 +33,7 @@ MVC built in tags
 
 ## Note:
 this configuration must apply if you are using ASP.NET Core AREAS to get all the MVC tags.
+```
 
 ## Gulp 4 configuration
 

@@ -28,7 +28,9 @@
 ```
   this configuration to make the <environment></environment> tags and other ASP.NET Core MVC features,
   all you need to do is to import this piece of code to your current .cshtml file
+  
   @addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers". 
+  
   then viola! you can now used those MVC built in tags
 
   Note: This configuration best applied if you are using ASP.NET Core AREAS to get all the MVC tags.
